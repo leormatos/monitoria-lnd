@@ -32,7 +32,7 @@ credentials = service_account.Credentials.from_service_account_info(
 
 conn = connect(credentials=credentials)
 client = Client(scope=scope,creds=credentials)
-data_base_name = "dados_dashboardapp"
+data_base_name = "lnd_monitores_database"
 data_base = Spread(data_base_name,client = client)
 
 sh = client.open(data_base_name)
