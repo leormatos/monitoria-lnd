@@ -47,7 +47,7 @@ st_autorefresh(interval=1 * 60 * 1000, key="dataframerefresh")
 ## SIDEBAR FILTERS
 
 input_filter = ['Atendimento médico','Controle alimentos','Emissões de carbono','Gestão de recursos','Pesagem de resíduos','Pesquisa de DE&I']
-input_producer = ''
+input_producer = 'None'
 input_event = ''
 
 ## SPREADSHEET MAPPING
