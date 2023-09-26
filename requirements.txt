@@ -1,0 +1,13 @@
+# requirements.txt
+gsheetsdb
+pandas
+plotly.express 
+numpy
+pyparsing
+gspread_pandas
+pubchempy
+pysmiles
+datetime
+matplotlib
+seaborn
+streamlit-autorefresh
